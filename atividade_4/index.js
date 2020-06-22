@@ -4,8 +4,8 @@ let rs = require ("readline-sync")
 
 // ## Faça o código ##
 
-let mes = rs.question ("Diga o mês\n")
-let dia = rs.question ("Diga a data\n")
+let mes = parseInt (rs.question ("Diga o mês\n"))
+let dia = parseInt (rs.question ("Diga a dia\n"))
 
 if (mes == 1) {
    if (dia <= 20 ) {
